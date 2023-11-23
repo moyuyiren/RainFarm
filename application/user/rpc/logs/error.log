@@ -1,0 +1,17 @@
+{"@timestamp":"2023-11-17T18:22:49.378+08:00","caller":"logic/registerlogic.go:51","content":"731952337924395008%!(EXTRA \u003cnil\u003e)","level":"error"}
+{"@timestamp":"2023-11-17T18:22:49.378+08:00","caller":"logic/registerlogic.go:52","content":"5a84ebb04925ff0b85d31359b312e6cc%!(EXTRA \u003cnil\u003e)","level":"error"}
+{"@timestamp":"2023-11-17T18:22:49.378+08:00","caller":"logic/registerlogic.go:53","content":"{\"snow\":731952337924395008,\"name\":\"yiren\",\"password\":\"5a84ebb04925ff0b85d31359b312e6cc\",\"mobile\":\"13309206893\",\"email\":\"764952492@qq.com\"}%!(EXTRA \u003cnil\u003e)","level":"error"}
+{"@timestamp":"2023-11-17T18:25:49.137+08:00","caller":"logic/registerlogic.go:51","content":"731953091888287744%!(EXTRA \u003cnil\u003e)","level":"error"}
+{"@timestamp":"2023-11-17T18:25:49.137+08:00","caller":"logic/registerlogic.go:52","content":"5a84ebb04925ff0b85d31359b312e6cc%!(EXTRA \u003cnil\u003e)","level":"error"}
+{"@timestamp":"2023-11-17T18:25:49.137+08:00","caller":"logic/registerlogic.go:53","content":"{\"snow\":731953091888287744,\"name\":\"yiren\",\"password\":\"5a84ebb04925ff0b85d31359b312e6cc\",\"mobile\":\"13309206893\",\"email\":\"764952492@qq.com\"}%!(EXTRA \u003cnil\u003e)","level":"error"}
+{"@timestamp":"2023-11-17T18:26:17.796+08:00","caller":"logic/registerlogic.go:51","content":"731953212092846080%!(EXTRA \u003cnil\u003e)","level":"error"}
+{"@timestamp":"2023-11-17T18:26:17.796+08:00","caller":"logic/registerlogic.go:52","content":"5a84ebb04925ff0b85d31359b312e6cc%!(EXTRA \u003cnil\u003e)","level":"error"}
+{"@timestamp":"2023-11-17T18:26:17.796+08:00","caller":"logic/registerlogic.go:53","content":"{\"snow\":731953212092846080,\"name\":\"yiren\",\"password\":\"5a84ebb04925ff0b85d31359b312e6cc\",\"mobile\":\"13309206893\",\"email\":\"764952492@qq.com\"}%!(EXTRA \u003cnil\u003e)","level":"error"}
+{"@timestamp":"2023-11-17T18:26:17.953+08:00","caller":"logic/registerlogic.go:58","content":"数据库写入错误%!(EXTRA *mysql.MySQLError=Error 1062 (23000): Duplicate entry 'yiren' for key 'user.PRIMARY')","level":"error"}
+{"@timestamp":"2023-11-17T20:59:18.526+08:00","caller":"logic/registerlogic.go:51","content":"731991718865408000%!(EXTRA \u003cnil\u003e)","level":"error"}
+{"@timestamp":"2023-11-17T20:59:18.526+08:00","caller":"logic/registerlogic.go:52","content":"5a84ebb04925ff0b85d31359b312e6cc%!(EXTRA \u003cnil\u003e)","level":"error"}
+{"@timestamp":"2023-11-17T20:59:18.526+08:00","caller":"logic/registerlogic.go:53","content":"{\"snow\":731991718865408000,\"name\":\"yiren11\",\"password\":\"5a84ebb04925ff0b85d31359b312e6cc\",\"mobile\":\"13309206896\",\"email\":\"764952492@qq.com\"}%!(EXTRA \u003cnil\u003e)","level":"error"}
+{"@timestamp":"2023-11-17T20:59:18.688+08:00","caller":"logic/registerlogic.go:58","content":"数据库写入错误%!(EXTRA *mysql.MySQLError=Error 1062 (23000): Duplicate entry '764952492@qq.com' for key 'user.email')","level":"error"}
+{"@timestamp":"2023-11-17T20:59:29.536+08:00","caller":"logic/registerlogic.go:51","content":"731991765044695040%!(EXTRA \u003cnil\u003e)","level":"error"}
+{"@timestamp":"2023-11-17T20:59:29.536+08:00","caller":"logic/registerlogic.go:52","content":"5a84ebb04925ff0b85d31359b312e6cc%!(EXTRA \u003cnil\u003e)","level":"error"}
+{"@timestamp":"2023-11-17T20:59:29.536+08:00","caller":"logic/registerlogic.go:53","content":"{\"snow\":731991765044695040,\"name\":\"yiren11\",\"password\":\"5a84ebb04925ff0b85d31359b312e6cc\",\"mobile\":\"13309206896\",\"email\":\"764952491112@qq.com\"}%!(EXTRA \u003cnil\u003e)","level":"error"}

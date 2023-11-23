@@ -1,0 +1,20 @@
+syntax = "v1"
+
+info(
+	title: "indexContent"
+	author: "Yiren"
+	email: "yiren@163.com"
+	version: "1.0.0"
+)
+import "content/content.api"
+
+@server(
+	prefix : indexContent/v1
+	group : indexContent
+)
+
+service indexContent{
+	@doc "indexContent"
+	@handler indexContent
+	get /indexContent returns (IndexContentResp)
+}

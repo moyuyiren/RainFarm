@@ -1,0 +1,24 @@
+Name: usercenter.rpc
+ListenOn: 0.0.0.0:8080
+Etcd:
+  Hosts:
+    - 150.158.144.5:2379
+  Key: user.rpc
+Apparatus: 0001
+AuthToken:
+  AccessSecret: ae0536f9-6450-4606-8e13-5a19ed505da0
+  AccessExpire: 31536000
+DB:
+  DataSource: root:TakeMyMoney3Q@tcp(150.158.144.5:13306)/farmer?charset=utf8mb4&parseTime=true&loc=Local
+  MaxIdleConns: 10
+  MaxOpenConns: 100
+  ConnMaxLifetime: 3600
+Log:
+  ServiceName: usercenter.rpc
+  Encoding: json
+  Mode: file
+  Level: error
+RedisHost:
+  RedisSource: 150.158.144.5:16379
+  DB: 1
+  Password: TakeMyMoney3Q

@@ -1,0 +1,16 @@
+syntax = "v1"
+
+info(
+    title: "indexContent"
+    author: "Yiren"
+    email: "yiren@163.com"
+    version: "1.0.0"
+)
+
+type (
+    IndexContentResp {
+       HotMessage []string `json:"hotMessage"` 
+       MessageInfo map[string]string `json:"messageInfo"`
+       ProductPicture []string `json:"productPicture"`
+    }
+)

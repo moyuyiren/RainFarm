@@ -1,0 +1,20 @@
+Name: usercenter
+Host: 0.0.0.0
+Port: 8888
+UserRPC:
+  Etcd:
+    Hosts:
+      - 150.158.144.5:2379
+    Key: user.rpc
+Auth:
+  AccessSecret: ae0536f9-6450-4606-8e13-5a19ed505da0
+  AccessExpire: 31536000
+Log:
+  ServiceName: usercenter.api
+  Encoding: json
+  Mode: file
+  Level: error
+RedisHost:
+  RedisSource: 150.158.144.5:16379
+  DB: 1
+  Password: TakeMyMoney3Q

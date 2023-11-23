@@ -1,0 +1,71 @@
+syntax = "proto3";
+
+package rpc;
+
+option go_package = "./";
+
+// 用户注册
+message RegisterRequest {
+  string Mobile = 1;
+  string Username = 2;
+  string Password = 3;
+  string Email = 4;
+}
+
+message RegisterResponse{
+  string  AccessToken = 1;
+  int64 AccessExpire = 2;
+}
+
+//用户登录
+message LoginRequest {
+  string Mobile = 1;
+  string Email = 2;
+  string Password = 3;
+}
+
+message LoginResponse{
+  string  AccessToken = 1;
+  int64 AccessExpire = 2;
+}
+
+
+//用户密码修改
+message RePwdRequest {
+  string Mobile = 1;
+  string Password = 2;
+  string KeyCode =3;
+}
+
+message RePwdResponse{
+  string  AccessToken = 1;
+  int64 AccessExpire = 2;
+}
+
+//获取用户信息
+message UserInfoRequest{
+  string  UserSnowID = 1;
+}
+
+message UserInfoResponse{
+  string Username = 1;
+  string Mobile = 2;
+  string Email = 3;
+}
+
+//用户验证码保存
+message UserCodeRequest{
+  string  UserEmail = 1;
+}
+
+message UserCodeResponse{
+  string  UserCode = 1;
+}
+
+service UserCenter {
+  rpc Register(RegisterRequest) returns(RegisterResponse);
+  rpc Login(LoginRequest) returns(LoginResponse);
+  rpc RePwd(RePwdRequest) returns(RePwdResponse);
+  rpc Detail(UserInfoRequest) returns(UserInfoResponse);
+  rpc GetCode(UserCodeRequest) returns(UserCodeResponse);
+}

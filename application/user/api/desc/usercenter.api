@@ -1,0 +1,43 @@
+syntax = "v1"
+
+info(
+	title: "userCenter"
+	author: "Yiren"
+	email: "yiren@163.com"
+	version: "1.0.0"
+)
+
+import "user/user.api"
+
+@server(
+	prefix: usercenter/v1
+	group: user
+)
+service usercenter {
+	@doc "register"
+	@handler register
+	post /user/register (RegisterReq) returns (RegisterResp)
+
+	@doc "login"
+	@handler login
+	post /user/login (LoginReq) returns (LoginResp)
+
+	@doc "repwd"
+	@handler repwd
+	post /user/repwd (ResetPwdReq) returns (ResetPwdResp)
+
+	@doc "getCode"
+	@handler getCode
+	post /user/getCode (GetCodeReq) returns ()
+}
+
+@server(
+	prefix: usercenter/v1
+	group: user
+	jwt: Auth
+)
+service usercenter {
+	@doc "get user info"
+	@handler detail
+	get /user/detail returns (UserInfoResp)
+}

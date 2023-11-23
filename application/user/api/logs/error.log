@@ -1,0 +1,20 @@
+{"@timestamp":"2023-11-13T22:09:28.550+08:00","caller":"clientinterceptors/durationinterceptor.go:35","content":"fail - etcd:/150.158.144.5:12379/usercenter.rpc/rpc.UserCenter/Register - Mobile:\"13309206893\"  Username:\"yiren\"  Password:\"asx123..\"  Email:\"764952492@qq.com\" - 100009: 注册失败","duration":"2.1ms","level":"error","span":"fa6612acfef1bda0","trace":"c10bcabf57cfef2082402543a265c710"}
+{"@timestamp":"2023-11-17T15:42:30.741+08:00","caller":"user/registerLogic.go:59","content":"返回了啥？？？%!(EXTRA *__.RegisterResponse=)","level":"error"}
+{"@timestamp":"2023-11-17T15:44:20.620+08:00","caller":"user/registerLogic.go:59","content":"返回了啥？？？%!(EXTRA *__.RegisterResponse=)","level":"error"}
+{"@timestamp":"2023-11-17T15:48:33.417+08:00","caller":"internal/discovbuilder.go:34","content":"bad resolver state","level":"error"}
+{"@timestamp":"2023-11-17T15:49:22.562+08:00","caller":"user/registerLogic.go:59","content":"返回了啥？？？%!(EXTRA *__.RegisterResponse=)","level":"error"}
+{"@timestamp":"2023-11-17T15:50:13.822+08:00","caller":"user/registerLogic.go:59","content":"返回了啥？？？%!(EXTRA *__.RegisterResponse=)","level":"error"}
+{"@timestamp":"2023-11-17T15:50:57.643+08:00","caller":"user/registerLogic.go:59","content":"返回了啥？？？%!(EXTRA *__.RegisterResponse=)","level":"error"}
+{"@timestamp":"2023-11-17T15:52:37.055+08:00","caller":"internal/discovbuilder.go:34","content":"bad resolver state","level":"error"}
+{"@timestamp":"2023-11-17T15:53:17.840+08:00","caller":"user/registerLogic.go:59","content":"返回了啥？？？%!(EXTRA *__.RegisterResponse=)","level":"error"}
+{"@timestamp":"2023-11-17T15:56:27.259+08:00","caller":"user/registerLogic.go:59","content":"返回了啥？？？%!(EXTRA *__.RegisterResponse=)","level":"error"}
+{"@timestamp":"2023-11-17T15:57:07.175+08:00","caller":"user/registerLogic.go:59","content":"返回了啥？？？%!(EXTRA *__.RegisterResponse=)","level":"error"}
+{"@timestamp":"2023-11-17T16:02:11.202+08:00","caller":"user/registerLogic.go:59","content":"返回了啥？？？%!(EXTRA *__.RegisterResponse=)","level":"error"}
+{"@timestamp":"2023-11-17T16:06:42.206+08:00","caller":"internal/discovbuilder.go:34","content":"bad resolver state","level":"error"}
+{"@timestamp":"2023-11-17T16:07:06.147+08:00","caller":"internal/discovbuilder.go:34","content":"bad resolver state","level":"error"}
+{"@timestamp":"2023-11-17T16:07:38.153+08:00","caller":"internal/discovbuilder.go:34","content":"bad resolver state","level":"error"}
+{"@timestamp":"2023-11-17T16:15:01.880+08:00","caller":"internal/discovbuilder.go:34","content":"bad resolver state","level":"error"}
+{"@timestamp":"2023-11-17T16:19:46.855+08:00","caller":"internal/discovbuilder.go:34","content":"bad resolver state","level":"error"}
+{"@timestamp":"2023-11-17T16:22:13.426+08:00","caller":"internal/discovbuilder.go:34","content":"bad resolver state","level":"error"}
+{"@timestamp":"2023-11-17T16:27:44.869+08:00","caller":"internal/discovbuilder.go:34","content":"bad resolver state","level":"error"}
+{"@timestamp":"2023-11-17T16:29:15.047+08:00","caller":"internal/discovbuilder.go:34","content":"bad resolver state","level":"error"}
